@@ -1,0 +1,55 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row; }
+
+.brand-logotipo {
+  display: block;
+  height: 1rem; }
+
+.lista-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-top: 1.5rem; }
+
+.enlace-nav {
+  text-decoration: none;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-inline: 50px;
+  transition: .3s; }
+  .enlace-nav:hover {
+    color: #61ba46; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center; }
+
+body {
+  display: grid;
+  background-image: url(../public/img/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto; }
+
+.art-main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+  margin-top: 10rem; }
+
+.tit-art {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4rem; }
+
+.text-art {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  width: 35rem; }

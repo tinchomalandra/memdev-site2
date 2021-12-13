@@ -1,0 +1,28 @@
+@import "../secciones/variables";
+
+body{
+    display: grid;
+    background-image: url(../public/img/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.art-main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    margin-top: 10rem;
+}
+
+.tit-art{
+    color: $text-color-main;
+    font-family: $font-main;
+    font-size: 4rem;
+}
+
+.text-art{
+    color: $text-color-main;
+    font-family: $font-main;
+    width: 35rem;
+}

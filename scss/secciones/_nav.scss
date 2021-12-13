@@ -1,0 +1,40 @@
+@import "../secciones/variables";
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-logotipo{
+    display: block;
+    height: 1rem;
+}
+
+.lista-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.enlace-nav{
+    text-decoration: none;
+    color: $text-color-main;
+    font-family: $font-main;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-inline: 50px;
+    transition: .3s;
+    &:hover{
+        color: $color-top;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
